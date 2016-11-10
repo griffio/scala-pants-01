@@ -5,6 +5,6 @@ import org.scalatest.junit.JUnitRunner
 @RunWith(classOf[JUnitRunner])
 class Factorial$Test extends FlatSpec with Matchers {
   "Factorial result" must "be 4" in {
-    assert(Factorial(2) == 4)
+    assert(Factorial(4) == 24)
   }
 }

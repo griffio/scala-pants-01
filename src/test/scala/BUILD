@@ -1,5 +1,5 @@
 junit_tests(
-	name='test',
+	name='tests',
 	sources=globs('*.scala'),
   dependencies = [
     'src/main/scala:factorial',
