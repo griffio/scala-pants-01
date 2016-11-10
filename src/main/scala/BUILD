@@ -1,4 +1,5 @@
 scala_library(
 	name='factorial',
-	sources=globs('*.scala')
+	sources=globs('*.scala'),
+	dependencies=[]
 )

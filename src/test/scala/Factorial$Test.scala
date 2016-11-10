@@ -1,5 +1,5 @@
 import org.junit.runner.RunWith
-import org.scalatest._
+import org.scalatest.{FlatSpec, Matchers}
 import org.scalatest.junit.JUnitRunner
 
 @RunWith(classOf[JUnitRunner])
