@@ -1,0 +1,6 @@
+.pants.d
+.idea
+.cache
+.pants.d
+.pants.workdir.file_lock
+pants
