@@ -1,9 +1,9 @@
 junit_tests(
-	name='tests',
-	sources=globs('*.scala'),
-  dependencies = [
-    'src/main/scala:factorial',
-	  'lib:junit',
-		'lib:scalatest',
-	]
+    name='tests',
+    sources=globs('*.scala'),
+    dependencies=[
+        'src/main/scala:factorial',
+        'lib:junit',
+        'lib:scalatest',
+    ]
 )
